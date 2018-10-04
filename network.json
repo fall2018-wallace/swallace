@@ -24,6 +24,16 @@
             ],
             "source": "clean.R",
             "target": "MergeArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot1",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "plot6993.png"
         }
     ],
     "nodes": [
@@ -34,8 +44,10 @@
             "name": "clean.R"
         },
         {
+            "assigned_to": "swallace",
             "desc": "",
-            "name": "MergeArrests.R"
+            "name": "MergeArrests.R",
+            "task_status": "in progress"
         },
         {
             "name": "plot6993.png"
@@ -44,6 +56,6 @@
             "name": "csvfile4573.csv"
         }
     ],
-    "updated_at": "2018-10-04 17:10:47",
+    "updated_at": "2018-10-04 17:11:53",
     "url": "https://github.com/fall2018-wallace/swallace"
 }
