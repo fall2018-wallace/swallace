@@ -13,6 +13,17 @@
             ],
             "source": "raw_data.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "clean_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergeArrests.R"
         }
     ],
     "nodes": [
@@ -27,6 +38,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:08:02",
+    "updated_at": "2018-10-04 17:09:17",
     "url": "https://github.com/fall2018-wallace/swallace"
 }
