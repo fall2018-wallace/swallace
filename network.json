@@ -34,6 +34,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "plot6993.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot2",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "plot3800.png"
         }
     ],
     "nodes": [
@@ -59,6 +69,6 @@
             "name": "plot3800.png"
         }
     ],
-    "updated_at": "2018-10-04 17:12:05",
+    "updated_at": "2018-10-04 17:12:31",
     "url": "https://github.com/fall2018-wallace/swallace"
 }
